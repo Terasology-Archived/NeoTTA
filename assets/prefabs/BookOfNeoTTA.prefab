@@ -1,0 +1,24 @@
+{
+    "parent" : "engine:iconItem",
+    "Item" : {
+        "icon" : "engine:items#RedBook",
+        "usage" : "ON_USER"
+    },
+    "DisplayName" : {
+        "name" : "Book of Neo TTA"
+    },
+    "Book" : {
+        "pages" : ["Welcome! This world is an experimental testing ground for a large amount of modules",
+            "Expect lots of bugs, find them, then help fix them! For instance the trees might look a bit funny ...",
+            "For a while console usage will still be needed to get most the ingredients",
+            "But maybe soon that'll be a different story :-)"
+        ],
+        "tint" : [255, 0, 0, 255],
+        "readOnly" : true,
+        "title" : "Welcome to NeoTTA!"
+    },
+    "InteractionTarget": {},
+    "InteractionScreen": {
+        "screen": "Books:BookScreen"
+    }
+}
