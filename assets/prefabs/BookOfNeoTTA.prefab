@@ -11,7 +11,8 @@
         "pages" : ["Welcome! This world is an experimental testing ground for a large amount of modules",
             "Expect lots of bugs, find them, then help fix them! For instance the trees might look a bit funny ...",
             "For a while console usage will still be needed to get most the ingredients",
-            "But maybe soon that'll be a different story :-)"
+            "But maybe soon that'll be a different story :-)",
+            "For now start your journey with Nature Crafting using 'n' by default. Gather some stuff from trees and the ground, see what shows up!"
         ],
         "tint" : [255, 0, 0, 255],
         "readOnly" : true,
