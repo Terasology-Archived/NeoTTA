@@ -19,5 +19,5 @@
         {"id": "Books", "minVersion": "1.0.0"}
     ],
     "isGameplay" : "true",
-    "defaultWorldGenerator" : "WoodCrafting:neoTTA"
+    "defaultWorldGenerator" : "NeoTTA:neoTTA"
 }
