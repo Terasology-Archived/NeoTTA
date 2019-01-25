@@ -61,7 +61,6 @@ import org.terasology.world.generator.RegisterWorldGenerator;
 import org.terasology.world.generator.WorldConfigurator;
 import org.terasology.world.generator.WorldConfiguratorAdapter;
 import org.terasology.world.generator.plugin.WorldGeneratorPluginLibrary;
-import org.terasology.world.liquid.LiquidType;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -161,7 +160,7 @@ public class NeoTTAWorldGenerator extends BaseFacetedWorldGenerator {
         final Block ice = blockManager.getBlock("Core:Ice");
         
      // Setup biome terrain layers
-        setupLayers(mantle, water, LiquidType.WATER, stone, sand, dirt, grass, snow, ice, seaLevel);
+        setupLayers(mantle, water, stone, sand, dirt, grass, snow, ice, seaLevel);
         
      // Replace stone with sand on the sea shores
         addChunkDecorator(
@@ -281,9 +280,9 @@ public class NeoTTAWorldGenerator extends BaseFacetedWorldGenerator {
         addChunkDecorator(oreDecorator);
     }
 
-    private void setupLayers(Block mantle, Block sea, LiquidType seaType, Block stone, Block sand, Block dirt, Block grass, Block snow, Block ice,
+    private void setupLayers(Block mantle, Block sea, Block stone, Block sand, Block dirt, Block grass, Block snow, Block ice,
                              int seaLevel) {
-        LayeringConfig config = new LayeringConfig(mantle, stone, sea, seaType);
+        LayeringConfig config = new LayeringConfig(mantle, stone, sea);
 
         LayeringDecorator layering = new LayeringDecorator(config, getWorldSeed().hashCode());
 
