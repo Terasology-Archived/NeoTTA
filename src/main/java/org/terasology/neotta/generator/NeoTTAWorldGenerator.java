@@ -149,15 +149,15 @@ public class NeoTTAWorldGenerator extends BaseFacetedWorldGenerator {
         
         blockManager = CoreRegistry.get(BlockManager.class);
 
-        final Block mantle = blockManager.getBlock("Core:MantleStone");
-        final Block stone = blockManager.getBlock("Core:Stone");
-        final Block water = blockManager.getBlock("Core:Water");
-        final Block sand = blockManager.getBlock("Core:Sand");
+        final Block mantle = blockManager.getBlock("CoreBlocks:MantleStone");
+        final Block stone = blockManager.getBlock("CoreBlocks:Stone");
+        final Block water = blockManager.getBlock("CoreBlocks:Water");
+        final Block sand = blockManager.getBlock("CoreBlocks:Sand");
         final Block clay = blockManager.getBlock("Woodcrafting:ClayStone");
-        final Block dirt = blockManager.getBlock("Core:Dirt");
-        final Block grass = blockManager.getBlock("Core:Grass");
-        final Block snow = blockManager.getBlock("Core:Snow");
-        final Block ice = blockManager.getBlock("Core:Ice");
+        final Block dirt = blockManager.getBlock("CoreBlocks:Dirt");
+        final Block grass = blockManager.getBlock("CoreBlocks:Grass");
+        final Block snow = blockManager.getBlock("CoreBlocks:Snow");
+        final Block ice = blockManager.getBlock("CoreBlocks:Ice");
         
      // Setup biome terrain layers
         setupLayers(mantle, water, stone, sand, dirt, grass, snow, ice, seaLevel);
