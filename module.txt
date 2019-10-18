@@ -6,6 +6,7 @@
     "description" : "Experimental gameplay template with many modules focusing on crafting at various tiers (wood, stone, metals). Successor to Throughout The Ages and also inspired by JoshariasSurvival",
     "dependencies" :
     [
+        {"id": "CoreBlocks", "minVersion": "1.0.0"},
         {"id": "WoodCrafting", "minVersion": "1.0.3"},
         {"id": "StoneCrafting", "minVersion": "1.0.2"},
         {"id": "EquipmentSmithing", "minVersion": "1.0.3"},
