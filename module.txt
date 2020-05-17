@@ -10,7 +10,7 @@
         { "id": "ChrisVolume1OST", "minVersion": "0.2.1" },
         { "id": "Cooking", "minVersion": "1.0.0" },
         { "id": "CoreAssets", "minVersion": "2.0.1" },
-        { "id": "CoreWorlds", "minVersion": "1.0.0" },
+        { "id": "CoreWorlds", "minVersion": "1.1.0" },
         { "id": "Drops", "minVersion": "1.0.1" },
         { "id": "EquipmentSmithing", "minVersion": "1.0.3" },
         { "id": "Health", "minVersion": "1.0.0" },
