@@ -1,6 +1,6 @@
 {
     "id": "NeoTTA",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "author": "The Terasology Foundation",
     "displayName": "NeoTTA Crafting (experimental)",
     "description": "Experimental gameplay template with many modules focusing on crafting at various tiers (wood, stone, metals). Successor to Throughout The Ages and also inspired by JoshariasSurvival",
@@ -14,6 +14,7 @@
         { "id": "ClimateConditions", "minVersion": "1.0.0" },
         { "id": "Cooking", "minVersion": "1.1.0" },
         { "id": "CoreAssets", "minVersion": "2.0.1" },
+        { "id": "CoreRendering", "minVersion": "1.0.0" },
         { "id": "CoreWorlds", "minVersion": "1.1.0" },
         { "id": "Drops", "minVersion": "1.0.1" },
         { "id": "EquipmentSmithing", "minVersion": "1.1.0" },
