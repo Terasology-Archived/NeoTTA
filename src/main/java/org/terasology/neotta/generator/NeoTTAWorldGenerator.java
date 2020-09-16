@@ -43,11 +43,11 @@ import org.terasology.engine.world.generator.RegisterWorldGenerator;
 import org.terasology.engine.world.generator.WorldConfigurator;
 import org.terasology.engine.world.generator.WorldConfiguratorAdapter;
 import org.terasology.engine.world.generator.plugin.WorldGeneratorPluginLibrary;
-import org.terasology.gf.generator.BushProvider;
-import org.terasology.gf.generator.FloraFeatureGenerator;
-import org.terasology.gf.generator.FloraProvider;
-import org.terasology.gf.generator.FoliageProvider;
-import org.terasology.gf.generator.TreeProvider;
+import org.terasology.growingflora.generator.BushProvider;
+import org.terasology.growingflora.generator.FloraFeatureGenerator;
+import org.terasology.growingflora.generator.FloraProvider;
+import org.terasology.growingflora.generator.FoliageProvider;
+import org.terasology.growingflora.generator.TreeProvider;
 
 import java.util.Arrays;
 import java.util.LinkedList;

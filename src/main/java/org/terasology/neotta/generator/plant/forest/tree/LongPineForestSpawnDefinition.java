@@ -6,8 +6,8 @@ import org.terasology.anotherWorld.AnotherWorldBiomes;
 import org.terasology.anotherWorld.decorator.BlockCollectionPredicate;
 import org.terasology.anotherWorldPlants.tree.LongPineGrowthDefinition;
 import org.terasology.engine.world.generator.plugin.RegisterPlugin;
-import org.terasology.gf.PlantType;
-import org.terasology.gf.generator.GrowthBasedPlantSpawnDefinition;
+import org.terasology.growingflora.PlantType;
+import org.terasology.growingflora.generator.GrowthBasedPlantSpawnDefinition;
 import org.terasology.neotta.generator.Blocks;
 
 import java.util.Arrays;
